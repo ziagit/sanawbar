@@ -1,0 +1,38 @@
+.header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+}
+.left-content{
+    background: rgb(145, 5, 149);
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    color: #ffffff;
+}
+.left-content p{
+    font-size: 18px;
+    margin: 0px;
+    line-height: 50px;
+}
+.center-content{
+    width: 60%;
+}
+.right-content{
+    width: 20%;
+    text-align: right;
+}
+ul{
+    display: flex;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+}

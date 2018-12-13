@@ -1,0 +1,27 @@
+<mat-card class="header">
+  <div class="left-content">
+    <p>Apps</p>
+  </div>
+  <div class="center-content">
+    <ul>
+      <li routerLinkActive="active current"><a mat-button [routerLink]="['/categories']">Categories</a></li>
+      <li routerLinkActive="active current"><a mat-button [routerLink]="['/home']">Home</a></li>
+      <li routerLinkActive="active current"><a mat-button [routerLink]="['/erpnext']">Top Charts</a></li>
+      <li routerLinkActive="active current"><a mat-button [routerLink]="['/mobile-app']">New Releases</a></li>
+    </ul>
+  </div>
+  <!--   <div class="login-status">
+    <h4 *ngIf="!status">Logged Out</h4>
+    <img *ngIf="status" class="user-image" src="assets/img/user.png" alt="">
+    <h4>{{user}}</h4>
+  </div> -->
+  <div class="right-content">
+    <a mat-button [routerLink]="['/categories']">
+      <mat-icon>help</mat-icon>
+    </a>
+    <a mat-button [routerLink]="['/home']">
+      <mat-icon>settings</mat-icon>
+    </a>
+  </div>
+
+</mat-card>

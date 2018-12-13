@@ -1,0 +1,29 @@
+{
+    "/shopify": {
+        "target": "https://your-domain.myshopify.com",
+        "secure": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/shopify": ""
+          },
+        "changeOrigin": true
+    },
+    "/erpnext": {
+        "target": "http://erpnext-ip/domain-name",
+        "secure": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/erpnext": ""
+          },
+        "changeOrigin": true
+    },
+    "/pinterest": {
+        "target": "https://api.pinterest.com",
+        "secure": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/pinterest": ""
+          },
+        "changeOrigin": true
+    }
+}
